@@ -1,0 +1,50 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    
+    color: hsl(0, 96%, 50%);
+}
+
+header {
+    background-color: #0b2ef5b3;
+    color: hsl(200, 100%, 2%);
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000007;
+}
+
+section {
+    padding: 50px 0;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #0a3ecc;
+    text-align: center;
+    padding: 10px;
+}
